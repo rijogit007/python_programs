@@ -8,14 +8,14 @@ if number==1:
 if number>1:
  
     
- for i in range(2,number):
+ for i in range(2,number):  #23458
         
         if number%i==0:
-            print("not a prime")
-            break
+            print(i,"not a prime")
+            # break
         else:
             
-            print("its a prime")    
+            print(i,"its a prime")    
             
     
         
